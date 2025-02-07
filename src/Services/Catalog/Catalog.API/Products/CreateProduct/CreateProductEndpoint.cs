@@ -2,7 +2,7 @@
 
 using BuildingBlocks.CQRS;
 
-namespace Catalog.API.Products
+namespace Catalog.API.Products.CreateProduct
 {
 
     public record CreateProductRequest(string Name, List<string> Category, string Description, string ImageFile, decimal Price) : ICommand<CreateProdictResult>;
@@ -12,17 +12,17 @@ namespace Catalog.API.Products
     {
         public void AddRoutes(IEndpointRouteBuilder app)
         {
-            app.MapPost("/products",async(CreateProductRequest request,ISender sender)=>
-            { 
-                var command= request.Adapt<CreateProductCommand>();
+            app.MapPost("/products", async (CreateProductRequest request, ISender sender) =>
+            {
+                var command = request.Adapt<CreateProductCommand>();
 
-                var result =await sender.Send(command);
-                
-                var response=result.Adapt<CreateProdictResponse>();
+                var result = await sender.Send(command);
+
+                var response = result.Adapt<CreateProdictResponse>();
 
                 return Results.Created($"/products/{response.Id}", response);
-            
-             }
+
+            }
             ).WithName("CreateProduct")
             .Produces<CreateProdictResponse>(StatusCodes.Status201Created)
             .ProducesProblem(StatusCodes.Status400BadRequest)
@@ -30,8 +30,8 @@ namespace Catalog.API.Products
             .WithDescription("Create Product")
 
             ;
-             
-             
+
+
         }
     }
 }
