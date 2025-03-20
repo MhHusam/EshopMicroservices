@@ -1,7 +1,7 @@
-using BuildingBlocks.Behaviors;
-using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using static System.Net.Mime.MediaTypeNames;
+
+
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,12 +21,17 @@ builder.Services.AddMarten(opts=>
 }
 ).UseLightweightSessions();
 
+//if (builder.Environment.IsDevelopment())
+//    builder.Services.InitializeMartenWith<CatalogInitialData>();
+
 builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
 
 
 
 builder.Services.AddLogging();
 
+
+builder.Services.AddExceptionHandler<CustomExceptionHandler>();
 
 //Before Building
 var app = builder.Build();
@@ -38,43 +43,45 @@ var app = builder.Build();
 
 app.MapCarter();
 
-app.UseExceptionHandler(exceptionHandlerApp =>
-{
-    exceptionHandlerApp.Run(async context =>
-    {
-        var exception = context.Features.Get<IExceptionHandlerFeature>()?.Error;
-        if(exception == null)
-        {
-            return;
-        }
-        context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+app.UseExceptionHandler(options => { });
 
-        // using static System.Net.Mime.MediaTypeNames;
-        context.Response.ContentType = Text.Plain;
+//app.UseExceptionHandler(exceptionHandlerApp =>
+//{
+//    exceptionHandlerApp.Run(async context =>
+//    {
+//        var exception = context.Features.Get<IExceptionHandlerFeature>()?.Error;
+//        if(exception == null)
+//        {
+//            return;
+//        }
+//        context.Response.StatusCode = StatusCodes.Status500InternalServerError;
 
-        var problemDeatils = new ProblemDetails
-        {
-            Title = exception.Message,
-            Status = StatusCodes.Status500InternalServerError,
-            Detail = exception.StackTrace
-        };
+//        // using static System.Net.Mime.MediaTypeNames;
+//        context.Response.ContentType = Text.Plain;
 
-        await context.Response.WriteAsJsonAsync(problemDeatils);
+//        var problemDeatils = new ProblemDetails
+//        {
+//            Title = exception.Message,
+//            Status = StatusCodes.Status500InternalServerError,
+//            Detail = exception.StackTrace
+//        };
 
-        var exceptionHandlerPathFeature =
-            context.Features.Get<IExceptionHandlerPathFeature>();
+//        await context.Response.WriteAsJsonAsync(problemDeatils);
 
-        if (exceptionHandlerPathFeature?.Error is FileNotFoundException)
-        {
-            await context.Response.WriteAsync(" The file was not found.");
-        }
+//        var exceptionHandlerPathFeature =
+//            context.Features.Get<IExceptionHandlerPathFeature>();
 
-        if (exceptionHandlerPathFeature?.Path == "/")
-        {
-            await context.Response.WriteAsync(" Page: Home.");
-        }
-    });
-});
+//        if (exceptionHandlerPathFeature?.Error is FileNotFoundException)
+//        {
+//            await context.Response.WriteAsync(" The file was not found.");
+//        }
+
+//        if (exceptionHandlerPathFeature?.Path == "/")
+//        {
+//            await context.Response.WriteAsync(" Page: Home.");
+//        }
+//    });
+//});
 
 
 app.Run();

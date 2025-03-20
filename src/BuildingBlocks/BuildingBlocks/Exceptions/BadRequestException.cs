@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace BuildingBlocks.Exceptions
 {
-    internal class BadRequestException
+    public class BadRequestException :Exception
     {
+        public BadRequestException(string message) : base(message) { }
+
+        public BadRequestException(string message, string details) : base(message)
+        {
+            Detail = details;
+        }
+        public string? Detail { get; private set; }
     }
 }
