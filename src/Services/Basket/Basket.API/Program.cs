@@ -1,5 +1,6 @@
 using Basket.API.Data;
 using BuildingBlocks.Behaviors;
+using Discount.Grpc;
 using Marten;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,6 +29,11 @@ builder.Services.AddScoped<IBasketRepository,BasketRepository>();
 builder.Services.Decorate<IBasketRepository, CashBasketRepository>();
 builder.Services.AddStackExchangeRedisCache(options => options.Configuration
 = builder.Configuration.GetConnectionString("Redis"));
+
+builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>(options =>
+{
+    options.Address = new Uri(builder.Configuration["GrpcSettings:DiscountUrl"]);
+});
 
 var app = builder.Build();
 app.MapCarter();

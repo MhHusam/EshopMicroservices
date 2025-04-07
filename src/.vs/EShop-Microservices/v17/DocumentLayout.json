@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|c:\\users\\husam\\source\\repos\\eshopmicroservices\\src\\services\\basket\\basket.api\\basket\\storebasket\\storebaskethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\basket\\storebasket\\storebaskethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|c:\\users\\husam\\source\\repos\\eshopmicroservices\\src\\services\\basket\\basket.api\\basket\\storebasket\\storebasketendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\basket\\storebasket\\storebasketendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|c:\\users\\husam\\source\\repos\\eshopmicroservices\\src\\services\\basket\\basket.api\\data\\cashbasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\data\\cashbasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|c:\\users\\husam\\source\\repos\\eshopmicroservices\\src\\services\\basket\\basket.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|c:\\users\\husam\\source\\repos\\eshopmicroservices\\src\\services\\basket\\basket.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|c:\\users\\husam\\source\\repos\\eshopmicroservices\\src\\services\\basket\\basket.api\\model\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\model\\shoppingcartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|c:\\users\\husam\\source\\repos\\eshopmicroservices\\src\\services\\basket\\basket.api\\data\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\data\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|c:\\users\\husam\\source\\repos\\eshopmicroservices\\src\\services\\basket\\basket.api\\basket\\getbasket\\getbaskethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E607536-A0BD-479F-B009-8D3BB6C59D77}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\basket\\getbasket\\getbaskethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{606B65FB-3F6A-4F2D-A8DE-A5EB030D8507}|Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj|c:\\users\\husam\\source\\repos\\eshopmicroservices\\src\\services\\discount\\discount.grpc\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{606B65FB-3F6A-4F2D-A8DE-A5EB030D8507}|Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj|solutionrelative:services\\discount\\discount.grpc\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,107 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IBasketRepository.cs",
-              "DocumentMoniker": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Data\\IBasketRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Data\\IBasketRepository.cs",
-              "ToolTip": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Data\\IBasketRepository.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.API\\Data\\IBasketRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:11:06.989Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StoreBasketHandler.cs",
-              "DocumentMoniker": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Basket\\StoreBasket\\StoreBasketHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Basket\\StoreBasket\\StoreBasketHandler.cs",
-              "ToolTip": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Basket\\StoreBasket\\StoreBasketHandler.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.API\\Basket\\StoreBasket\\StoreBasketHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:38:14.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StoreBasketEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Basket\\StoreBasket\\StoreBasketEndpoints.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Basket\\StoreBasket\\StoreBasketEndpoints.cs",
-              "ToolTip": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Basket\\StoreBasket\\StoreBasketEndpoints.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.API\\Basket\\StoreBasket\\StoreBasketEndpoints.cs",
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Discount\\Discount.Grpc\\Services\\DiscountService.cs",
+              "RelativeDocumentMoniker": "Services\\Discount\\Discount.Grpc\\Services\\DiscountService.cs",
+              "ToolTip": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Discount\\Discount.Grpc\\Services\\DiscountService.cs",
+              "RelativeToolTip": "Services\\Discount\\Discount.Grpc\\Services\\DiscountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:38:10.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetBasketHandler.cs",
-              "DocumentMoniker": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Basket\\GetBasket\\GetBasketHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Basket\\GetBasket\\GetBasketHandler.cs",
-              "ToolTip": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Basket\\GetBasket\\GetBasketHandler.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.API\\Basket\\GetBasket\\GetBasketHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:13:30.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CashBasketRepository.cs",
-              "DocumentMoniker": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Data\\CashBasketRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Data\\CashBasketRepository.cs",
-              "ToolTip": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Data\\CashBasketRepository.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.API\\Data\\CashBasketRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:11:07.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShoppingCartItem.cs",
-              "DocumentMoniker": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Model\\ShoppingCartItem.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Model\\ShoppingCartItem.cs",
-              "ToolTip": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\Model\\ShoppingCartItem.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.API\\Model\\ShoppingCartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:11:04.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\appsettings.Development.json",
-              "RelativeToolTip": "Services\\Basket\\Basket.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-18T19:05:39.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\husam\\source\\repos\\EshopMicroservices\\src\\Services\\Basket\\Basket.API\\appsettings.json",
-              "RelativeToolTip": "Services\\Basket\\Basket.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-18T19:05:38.115Z",
+              "WhenOpened": "2025-04-07T11:29:39.332Z",
               "EditorCaption": ""
             }
           ]
